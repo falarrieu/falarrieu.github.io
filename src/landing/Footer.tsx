@@ -41,7 +41,7 @@ const Footer = () => {
                     <Tooltip title="LinkedIn">
                         <IconButton
                             component="a"
-                            href="https://www.linkedin.com/in/federico-larrieu"
+                            href="https://www.linkedin.com/in/federico-larrieu-a45042212/"
                             target="_blank"
                             rel="noopener"
                             aria-label="LinkedIn"
