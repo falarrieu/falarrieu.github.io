@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <BrowserRouter>
+        {/* <BrowserRouter>
           <Navigation />
           <Routes>
             <Route path="/" element={<Landing />} />
@@ -22,7 +22,8 @@ function App() {
             <Route path="/projects" element={<ComingSoon />} >Additional Projects</Route>
             <Route path="/contact" element={<ComingSoon />} >Contact</Route>
           </Routes>
-        </BrowserRouter>
+        </BrowserRouter> */}
+        <Landing /> 
       </ThemeProvider>
     </>
   )
